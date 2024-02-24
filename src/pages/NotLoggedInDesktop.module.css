@@ -1,0 +1,1062 @@
+.allPostsGroupChild {
+  width: 1440px;
+  height: 440px;
+  position: relative;
+  background-image: url(/public/rectangle2@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.singlePostFrame {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.6));
+  z-index: 1;
+}
+.computerEngineering,
+.computerEngineersFollow {
+  position: relative;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.computerEngineering {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+.computerEngineersFollow {
+  font-size: var(--font-size-lg);
+}
+.allPostsGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 286px 200px 80px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 4px 0;
+  background-image: url(/public/rectangle2@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+}
+.articleFrame,
+.jobFrame {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.articleFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 32px;
+  max-width: 100%;
+}
+.jobFrame {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro);
+  opacity: 0;
+}
+.allPosts32,
+.article,
+.education,
+.event,
+.job {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+}
+.article,
+.education,
+.event,
+.job {
+  color: var(--color-gray-100);
+}
+.innovaccerFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: 0 19px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 36px;
+  width: 133px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.writeAPost {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.baselineArrowDropDown24pxIcon {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 22px;
+  z-index: 1;
+}
+.rectangleParent {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 6px var(--padding-6xs) var(--padding-xs);
+  gap: 7px;
+  white-space: nowrap;
+}
+.frameItem {
+  height: 36px;
+  width: 125px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-royalblue);
+  display: none;
+}
+.baselineGroupAdd24pxIcon {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 22px;
+  z-index: 1;
+}
+.joinGroup {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.outlineWorkButton,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-royalblue);
+  align-items: center;
+  padding: var(--padding-6xs) var(--padding-4xs) var(--padding-6xs)
+    var(--padding-3xs);
+  gap: 6px;
+  white-space: nowrap;
+}
+.outlineWorkButton {
+  align-items: flex-start;
+  gap: 0 16px;
+}
+.timesjobsFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.lineShape,
+.lineShape1 {
+  height: 1px;
+  position: relative;
+  box-sizing: border-box;
+}
+.lineShape {
+  width: 1040px;
+  border-top: 1px solid var(--color-gainsboro);
+  max-width: 100%;
+}
+.lineShape1 {
+  width: 93px;
+  border-top: 1px solid var(--color-black);
+  margin-left: -1040px;
+}
+.lineShapeParent,
+.rectangle,
+.timesjobsButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.lineShapeParent {
+  align-self: stretch;
+  height: 0;
+  flex-direction: row;
+}
+.rectangle,
+.timesjobsButton {
+  width: 1040px;
+  flex-direction: column;
+  gap: 12px 0;
+}
+.timesjobsButton {
+  width: 1336px;
+  align-items: center;
+  padding: 0 var(--padding-xl) 28px;
+  box-sizing: border-box;
+  gap: 8px 0;
+}
+.octoberMeetupFrameChild {
+  align-self: stretch;
+  height: 492px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  display: none;
+}
+.innovaccerFrameIcon {
+  align-self: stretch;
+  height: 220px;
+  position: relative;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.financeInvestment,
+.meetup {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.financeInvestment {
+  margin: 0;
+  flex: 1;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  display: inline-block;
+  min-width: 390px;
+  max-width: 100%;
+}
+.editReportOption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.baselineMoreVert24pxIcon {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 2;
+}
+.yourLocationFrame {
+  height: 32px;
+  width: 36px;
+  position: relative;
+}
+.financeFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 15px;
+  max-width: 100%;
+}
+.frameInner {
+  height: 38px;
+  width: 652px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 0.7px solid var(--color-darkgray);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.visitWebsite {
+  position: relative;
+  font-size: var(--font-size-smi);
+  line-height: 140.4%;
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans);
+  color: #e56135;
+  text-align: center;
+  z-index: 1;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 0.7px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 652px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  max-width: 100%;
+  z-index: 1;
+}
+.outlineLocationOn24pxIcon {
+  position: absolute;
+  top: 6px;
+  left: 206px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.ahmedabadIndia {
+  left: 230px;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+}
+.ahmedabadIndia,
+.baselineToday24pxIcon,
+.fri12Oct {
+  position: absolute;
+  top: 6px;
+  z-index: 1;
+}
+.fri12Oct {
+  left: 24px;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 142px;
+}
+.baselineToday24pxIcon {
+  left: 0;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameChild1,
+.rectangleDiv {
+  position: relative;
+  display: none;
+}
+.rectangleDiv {
+  align-self: stretch;
+  height: 102px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16), 0 0 2px rgba(0, 0, 0, 0.08);
+  z-index: 1;
+}
+.frameChild1 {
+  height: 32px;
+  width: 160px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  opacity: 0;
+}
+.edit {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: right;
+  z-index: 1;
+}
+.frameChild2,
+.rectangleParent1 {
+  border: 1px solid var(--color-black);
+}
+.rectangleParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-3xs);
+  z-index: 1;
+}
+.frameChild2 {
+  height: 32px;
+  width: 160px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+  opacity: 0;
+}
+.report {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.frameChild3,
+.rectangleParent2 {
+  border: 1px solid var(--color-black);
+}
+.rectangleParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-3xs);
+  z-index: 2;
+  margin-top: -1px;
+}
+.frameChild3 {
+  height: 32px;
+  width: 160px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+  opacity: 0;
+}
+.option3 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.groupDiv,
+.rectangleParent3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangleParent3 {
+  align-self: stretch;
+  border: 1px solid var(--color-black);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-6xs) var(--padding-xs);
+  z-index: 3;
+  margin-top: -1px;
+}
+.groupDiv {
+  position: absolute;
+  top: 0;
+  left: 492px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16), 0 0 2px rgba(0, 0, 0, 0.08);
+  width: 160px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frameGroup {
+  margin: 0;
+  align-self: stretch;
+  height: 102px;
+  position: relative;
+  max-width: 100%;
+}
+.softwareDeveloperFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px 0;
+  max-width: 100%;
+}
+.frameMeetupDetails {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  object-fit: contain;
+  z-index: 1;
+}
+.ronalJones {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 10px;
+}
+.iconactionvisibility24px {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  object-fit: cover;
+  min-height: 18px;
+  z-index: 1;
+}
+.kViews {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-dimgray-200);
+  text-align: right;
+  z-index: 1;
+}
+.visibilityToggle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.groupFrameChild {
+  height: 36px;
+  width: 42px;
+  position: relative;
+  z-index: 1;
+}
+.groupFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 40px;
+}
+.frameJobSearch,
+.meetupFrame {
+  align-self: stretch;
+  display: flex;
+}
+.frameJobSearch {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.meetupFrame {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi);
+  box-sizing: border-box;
+  gap: 9px 0;
+  max-width: 100%;
+}
+.frameChild4,
+.octoberMeetupFrame {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.octoberMeetupFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xl);
+  gap: 20px 0;
+}
+.frameChild4 {
+  width: 694px;
+  height: 271px;
+  position: relative;
+  display: none;
+}
+.job1,
+.softwareDeveloper {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.softwareDeveloper {
+  margin: 0;
+  align-self: stretch;
+  font-size: var(--font-size-3xl);
+  line-height: 134.55%;
+  font-weight: 600;
+}
+.outlineWorkOutline24pxIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+  z-index: 1;
+}
+.innovaccerAnalyticsPrivate {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.noidaIndia {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 4px;
+}
+.outlineLocationOn24pxIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+  z-index: 1;
+}
+.noidaIndia2 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.noidaIndia1,
+.noidaIndiaParent,
+.softwareDeveloperParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 4px;
+}
+.noidaIndiaParent,
+.softwareDeveloperParent {
+  gap: 0 40px;
+  max-width: 100%;
+}
+.softwareDeveloperParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 12px 0;
+  min-width: 390px;
+}
+.baselineMoreVert24pxIcon1 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 24px;
+  max-width: 100%;
+}
+.frameChild5 {
+  height: 36px;
+  width: 650px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 0.7px solid var(--color-darkgray);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.applyOnTimesjobs {
+  position: relative;
+  font-size: var(--font-size-smi);
+  line-height: 140.4%;
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans);
+  color: #02b875;
+  text-align: center;
+  z-index: 1;
+}
+.frameContainer,
+.jobParent,
+.rectangleParent4 {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.rectangleParent4 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 0.7px solid var(--color-darkgray);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs);
+  z-index: 1;
+}
+.frameContainer,
+.jobParent {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 16px 0;
+}
+.jobParent {
+  align-items: flex-start;
+  gap: 10px 0;
+}
+.textFrameIcon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  object-fit: contain;
+  z-index: 1;
+}
+.josephGray {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.profileFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 10px;
+}
+.iconactionvisibility24px1 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  object-fit: cover;
+  min-height: 18px;
+  z-index: 1;
+}
+.kViews1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-dimgray-200);
+  text-align: right;
+  z-index: 1;
+}
+.visibilityToggle1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.groupFrameItem {
+  height: 36px;
+  width: 42px;
+  position: relative;
+  z-index: 1;
+}
+.groupFrame1,
+.personFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.groupFrame1 {
+  justify-content: flex-start;
+  gap: 0 40px;
+}
+.personFrame {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameDiv,
+.jobSearchButtonParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameDiv {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-xl) var(--padding-lgi);
+  gap: 32px 0;
+}
+.jobSearchButtonParent {
+  flex: 1;
+  align-items: flex-start;
+  gap: 16px 0;
+  min-width: 450px;
+}
+.outlineLocationOn24px2Icon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 18px;
+}
+.noidaIndia3 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-black);
+  text-align: left;
+}
+.outlineLocationOn24px2Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 4px;
+}
+.baselineEdit24pxIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.frameParent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.errorLocation {
+  align-self: stretch;
+  height: 0;
+  position: relative;
+  border-top: 0.4px solid #b8b8b8;
+  box-sizing: border-box;
+}
+.frameParent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.baselineErrorOutline24pxIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.yourLocationWill {
+  flex: 1;
+  position: relative;
+  font-size: 12px;
+  font-family: var(--font-ibm-plex-sans);
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+.helpTextFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 7px;
+}
+.frameParent2,
+.frameWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent2 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: 32px 0;
+}
+.frameWrapper {
+  width: 243px;
+  padding: 27px 0 0;
+  min-width: 243px;
+}
+.frameParent,
+.frameWrapper,
+.notLoggedInDesktop {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1080px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  gap: 0 105px;
+  max-width: 100%;
+}
+.notLoggedInDesktop {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 98px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    gap: 0 105px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .computerEngineering {
+    font-size: 29px;
+  }
+  .allPostsGroup {
+    padding-left: var(--padding-81xl);
+    padding-right: var(--padding-81xl);
+    box-sizing: border-box;
+  }
+  .frameWrapper {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .timesjobsFrame {
+    flex-wrap: wrap;
+  }
+  .financeInvestment {
+    min-width: 100%;
+  }
+  .financeFrame {
+    flex-wrap: wrap;
+  }
+  .softwareDeveloperParent {
+    min-width: 100%;
+  }
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+  .frameDiv {
+    gap: 32px 0;
+  }
+  .jobSearchButtonParent {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 0 105px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .computerEngineering {
+    font-size: var(--font-size-3xl);
+  }
+  .allPostsGroup {
+    padding: 186px var(--padding-xl) 52px;
+    box-sizing: border-box;
+  }
+  .innovaccerFrame {
+    flex-wrap: wrap;
+  }
+  .financeInvestment {
+    font-size: var(--font-size-lg);
+  }
+  .frameJobSearch {
+    flex-wrap: wrap;
+  }
+  .softwareDeveloper {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .noidaIndiaParent {
+    flex-wrap: wrap;
+    gap: 0 40px;
+  }
+  .personFrame {
+    flex-wrap: wrap;
+  }
+}

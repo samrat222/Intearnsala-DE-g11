@@ -1,0 +1,178 @@
+.jobSearchButtonChild,
+.textIcon {
+  align-self: stretch;
+  position: relative;
+}
+.jobSearchButtonChild {
+  height: 474px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  display: none;
+}
+.textIcon {
+  height: 220px;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.article,
+.whatIfFamous {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.whatIfFamous {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  line-height: 134.17%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 380px;
+  max-width: 100%;
+}
+.noidaIndiaTextChild {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.noidaIndiaText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 24px;
+  max-width: 100%;
+  font-size: var(--font-size-3xl);
+}
+.iveWorkedIn {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-lgi);
+  line-height: 134.17%;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-dimgray-100);
+  z-index: 1;
+}
+.innovaccerLogoFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) var(--padding-xs);
+  box-sizing: border-box;
+  gap: 11px 0;
+  max-width: 100%;
+}
+.frameIcon,
+.sarthakKamra {
+  position: relative;
+  z-index: 1;
+}
+.frameIcon {
+  height: 48px;
+  width: 48px;
+  border-radius: var(--br-5xl);
+  object-fit: contain;
+}
+.sarthakKamra {
+  font-weight: 600;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 10px;
+}
+.iconactionvisibility24px {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  object-fit: cover;
+  min-height: 18px;
+  z-index: 1;
+}
+.kViews {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.visibilityToggle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.groupFrameChild {
+  height: 36px;
+  width: 42px;
+  position: relative;
+  z-index: 1;
+}
+.groupFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 40px;
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-200);
+}
+.jobSearchButton,
+.rectangleShape {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.rectangleShape {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-lgi);
+  gap: var(--gap-xl);
+}
+.jobSearchButton {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xl);
+  gap: 20px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans);
+}
+@media screen and (max-width: 725px) {
+  .whatIfFamous {
+    min-width: 100%;
+  }
+  .noidaIndiaText {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatIfFamous {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .rectangleShape {
+    flex-wrap: wrap;
+  }
+}

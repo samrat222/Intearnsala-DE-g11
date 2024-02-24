@@ -1,0 +1,138 @@
+.rectangle {
+  height: 72px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  display: none;
+  max-width: 100%;
+}
+.wholeIcon {
+  width: 162.6px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.fRAME {
+  height: 26px;
+  width: 207px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.rectangle1 {
+  height: 42px;
+  width: 360px;
+  position: relative;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+  max-width: 100%;
+}
+.frameChild {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  min-height: 22px;
+  z-index: 1;
+}
+.searchForYour {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.rectangleGroup {
+  width: 360px;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  max-width: 100%;
+  white-space: nowrap;
+  z-index: 1;
+}
+.createAccount {
+  font-weight: 500;
+}
+.itsFree {
+  color: var(--color-royalblue);
+}
+.createAccountItsContainer {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.baselineArrowDropDown24pxIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 1;
+}
+.createAccountItsFreeParent,
+.fRAME1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fRAME1 {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-53xl) var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-ibm-plex-sans);
+}
+@media screen and (max-width: 1000px) {
+  .searchForYour {
+    display: none;
+  }
+  .rectangleGroup {
+    width: 118px;
+  }
+  .createAccountItsContainer {
+    display: none;
+  }
+}
+@media screen and (max-width: 725px) {
+  .rectangleParent {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+
+/* My location module */
